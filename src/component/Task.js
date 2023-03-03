@@ -107,8 +107,6 @@ export default class Task extends React.Component {
             assignee: this.state.assignee,
         };
 
-        console.log("======handleUpdate==============" + JSON.stringify(task));
-
         const taskBody = JSON.stringify(task);
         const customConfig = {
             headers: {
@@ -131,10 +129,6 @@ export default class Task extends React.Component {
             assignee: row.assignee,
             status: status
         };
-
-        //  console.log(">>>>>>>>>taskbody>>>>>>>>>>>>>" + JSON.stringify(task));
-
-        console.log("======handleUpdate==============" + JSON.stringify(task));
 
         const taskBody = JSON.stringify(task);
         const customConfig = {
