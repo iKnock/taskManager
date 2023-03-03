@@ -1,0 +1,72 @@
+.App {
+  text-align   : center;
+  margin       : 5%;
+  border       : white 1px solid;
+  border-radius: 8px;
+}
+
+.tabEmpTask {
+  text-align   : center;
+  margin-top   : 5%;
+  margin-left  : 5%;
+  border       : #282c34 1px solid;
+  border-radius: 8px;
+}
+
+.btnContainer {
+  text-align: center;
+  margin    : 5%;
+  width     : 82px;
+}
+
+.PageTitle {
+  margin-bottom: 5%;
+}
+
+.sidebarSelector {
+  margin-top: 15%;
+}
+
+.inputContainer {
+  margin: 5%;
+}
+
+.inputBox {
+  margin: 3%;
+}
+
+.App-logo {
+  height        : 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height      : 100vh;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  justify-content : center;
+  font-size       : calc(10px + 2vmin);
+  color           : white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
